@@ -1,0 +1,11 @@
+基于Python+Hive外汇数据的爬取与分析
+
+一，使用python爬虫爬取雪球网站数据（https://xueqiu.com/），每个学员两组数据（例如：黄金ETF，中证白酒等），可以使用scrapy框架（可选）。
+
+二，爬取的数据集，一组上传Hive集群（必做），一组上传Spark集群（可选）
+
+三，创建Web项目（java，python等不限），为用户提供操作界面（基于用户考虑适当添加其它功能模块），可访问集群中的数据，Hive集群通过HQL访问，Spark集群通过SparkSQL。
+
+四，通过echarts，highcharts或pyecharts等实现K线图的展示
+
+五，以小组为单位完成答辩ppt，包括：成员，分工，开发过程，成品介绍等内容。
